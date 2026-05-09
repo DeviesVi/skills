@@ -1,0 +1,8 @@
+interface:
+  display_name: "Global Stock Value Analysis"
+  short_description: "Value investing research with news-aware market context."
+  brand_color: "#2563EB"
+  default_prompt: "Use $global-stock-value-analysis to analyze AAPL and 600519 with a value-investing framework and recent news context."
+
+policy:
+  allow_implicit_invocation: true
