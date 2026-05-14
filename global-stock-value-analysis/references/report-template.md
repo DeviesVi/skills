@@ -1,49 +1,98 @@
 # Report Templates
 
+These templates are mandatory output contracts, not examples.
+
+Rules:
+- Preserve the selected template's section order and required headings.
+- Do not omit required sections. If data is unavailable, write "未验证/暂无可靠数据" in that section.
+- Keep facts, estimates, and judgment separated.
+- Include source dates for current market data, financial periods, filings, and major news.
+- Use concise prose under each heading unless the user asks for a full report.
+
 ## Quick Stock Note
 
 Use for short answers:
 
-1. Company and ticker
-2. Data freshness: price retrieval time, market status, latest filing period, latest announcement/news window
-3. Current price/market cap and data date
-4. Business snapshot
-5. Key metrics table
-6. Recent news that matters
-7. Buffett/Munger/Duan gates when relevant
-8. Valuation view
-9. Main risks
-10. Bottom line
+Required headings:
+
+1. Conclusion
+2. Data Freshness
+3. Company And Business
+4. Key Metrics
+5. Recent News That Matters
+6. Buffett/Munger/Duan Gates
+7. Valuation View
+8. Main Risks
+9. Watch Items
+10. Sources
 
 ## Full Investment Memo
 
 Use for detailed research:
 
-1. Executive summary
-2. Data freshness and source log: price timestamp, market status, latest financial period, latest filings/announcements, news window, stale-data caveats
-3. Company overview and business model
-4. Industry and competitive position
-5. Financial analysis
-6. Investment philosophy gates: circle of competence, right business, right people, right price, owner earnings, inversion risk
+Required headings:
+
+1. Executive Summary
+2. Data Freshness And Source Log
+3. Company Overview And Business Model
+4. Industry And Competitive Position
+5. Financial Analysis
+6. Investment Philosophy Gates
 7. Valuation
-8. Peer comparison
-9. News, catalysts, and market narrative
-10. Risks and red flags
-11. Watch items
-12. Conclusion with fair value range and margin of safety
+8. Peer Comparison
+9. News, Catalysts, And Market Narrative
+10. Risks And Red Flags
+11. Watch Items
+12. Conclusion With Fair Value Range And Margin Of Safety
 
 ## News-Aware Value Memo
 
 Use when the user asks for current market news plus value investing view:
 
-1. Current snapshot: price, market cap, valuation, retrieval time, market status, and data date
-2. Freshness check: latest filing, latest announcement, recent news window, and any stale-data caveat
-3. Long-term thesis: why the business may or may not compound value
-4. Recent news table: date/time, event, source quality, investment impact, thesis effect
-5. Fundamentals: revenue, margins, FCF, balance sheet, ROIC/ROE
-6. Valuation: fair value range, assumptions, margin of safety
-7. Risk: permanent impairment risks versus temporary volatility
-8. Decision view: attractive, watchlist, fairly valued, or avoid
+Required headings:
+
+1. Current Snapshot
+2. Freshness Check
+3. Long-Term Thesis
+4. Recent News Table
+5. Fundamentals
+6. Valuation
+7. Risk
+8. Decision View
+
+## Valuation-Focused Note
+
+Use when the user mainly asks whether the stock is cheap, expensive, worth buying, or what fair value should be.
+
+Required headings:
+
+1. Valuation Conclusion
+2. Data Freshness
+3. Current Market Implied Expectations
+4. Normalized Earnings Or Owner Earnings
+5. Multiple-Based Valuation
+6. DCF Or FCF Yield Check
+7. Margin Of Safety
+8. Sensitivity
+9. What Would Change The View
+10. Sources
+
+## Risk Review
+
+Use when the user mainly asks about downside, accounting problems, leverage, regulatory exposure, or thesis failure.
+
+Required headings:
+
+1. Risk Conclusion
+2. Data Freshness
+3. Permanent Impairment Risks
+4. Financial And Accounting Risks
+5. Business And Competitive Risks
+6. Management, Governance, And Capital Allocation
+7. News Or Event Risks
+8. Balance Sheet And Liquidity
+9. Red Flags To Monitor
+10. Sources
 
 ## Comparison Output
 
@@ -63,4 +112,3 @@ Use for stock comparisons:
 | Risk |  |  |  |
 
 End with: "more attractive for value", "higher quality but priced accordingly", or "not directly comparable" when that is the honest conclusion.
-

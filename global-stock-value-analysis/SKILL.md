@@ -62,6 +62,32 @@ If the market is ambiguous, infer from ticker format and company name. Ask one c
 10. Check risks and red flags: accounting quality, debt maturity, customer concentration, governance, related-party transactions, regulatory exposure, cyclicality, and recent adverse news.
 11. Produce a clear conclusion with thesis, key numbers, valuation range, watch items, and confidence level.
 
+## Report Type Routing
+
+Choose one report format before drafting:
+
+| User request | Required format |
+| --- | --- |
+| "Analyze X", "怎么看X", "分析X", or other broad single-stock asks | Quick Stock Note |
+| "Full report", "deep dive", "完整报告", or "深度分析" | Full Investment Memo |
+| "Latest news", "最近发生什么", "催化", or news-driven asks | News-Aware Value Memo |
+| "Compare", "对比", "X vs Y", or peer ranking asks | Comparison Output |
+| "估值", "值不值得买", "fair value", or entry-price asks | Valuation-Focused Note |
+| "风险", "暴雷", "财务问题", or downside-only asks | Risk Review |
+
+## Mandatory Output Contract
+
+For any stock analysis, the final answer MUST follow `references/report-template.md`.
+
+Before writing the final answer:
+1. Select exactly one report format from Report Type Routing.
+2. Read `references/report-template.md`.
+3. Preserve the selected template's section order and required headings.
+4. Do not omit required sections. If data is unavailable, write "未验证/暂无可靠数据" in that section and lower confidence.
+5. Put conclusion first for single-stock notes unless the selected template explicitly says otherwise.
+6. Separate facts, estimates, and judgment instead of blending them in the same paragraph.
+7. For single-stock reports, explicitly apply the Buffett/Munger/Duan gates: durable business quality, trustworthy management/culture, owner earnings or cash generation, inversion risk, and right price/margin of safety.
+
 ## References
 
 Read only what is needed:
@@ -69,7 +95,7 @@ Read only what is needed:
 - `references/investment-philosophy.md` for Buffett, Munger, and Duan Yongping principles translated into actionable analysis gates.
 - `references/market-data.md` for market-specific data gathering guidance.
 - `references/news-events.md` for market news, catalysts, and event triage.
-- `references/report-template.md` for concise output structures.
+- `references/report-template.md` for mandatory report formats. Read it before every final stock-analysis answer.
 
 ## Output Rules
 
@@ -83,3 +109,12 @@ Read only what is needed:
 - For cross-market comparisons, normalize currency, accounting standards, fiscal periods, and one-off items.
 - If data is unavailable or stale, say so and continue with a clearly marked limited analysis.
 
+## Final Self-Check
+
+Before final response, verify:
+- Current price/date is stated, or marked unavailable.
+- Latest reporting period is stated, or marked unavailable.
+- The selected template's required headings are present and in order.
+- Facts, estimates, and judgment are separated.
+- Sources are listed with dates where possible.
+- Any unavailable data is clearly labeled and reflected in confidence.
