@@ -3,8 +3,8 @@
 These templates are mandatory output contracts, not examples.
 
 Rules:
-- Preserve the selected template's section order and required headings.
-- Do not omit required sections. If data is unavailable, write "未验证/暂无可靠数据" in that section.
+- Preserve the selected template's section order. Localize required headings to match the target output language while preserving their meaning.
+- Do not omit required sections. If data is unavailable, write "未验证/暂无可靠数据" in that section. Section headings must be in the same language as the main answer unless the user explicitly asks otherwise.
 - Keep facts, estimates, and judgment separated.
 - Include source dates for current market data, financial periods, filings, and major news.
 - Use concise prose under each heading unless the user asks for a full report.

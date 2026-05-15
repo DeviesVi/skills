@@ -82,7 +82,7 @@ For any stock analysis, the final answer MUST follow `references/report-template
 Before writing the final answer:
 1. Select exactly one report format from Report Type Routing.
 2. Read `references/report-template.md`.
-3. Preserve the selected template's section order and required headings.
+3. Preserve the selected template's section order. Translate/localize required headings to match the target output language while preserving their meaning.
 4. Do not omit required sections. If data is unavailable, write "未验证/暂无可靠数据" in that section and lower confidence.
 5. Put conclusion first for single-stock notes unless the selected template explicitly says otherwise.
 6. Separate facts, estimates, and judgment instead of blending them in the same paragraph.
@@ -114,7 +114,7 @@ Read only what is needed:
 Before final response, verify:
 - Current price/date is stated, or marked unavailable.
 - Latest reporting period is stated, or marked unavailable.
-- The selected template's required headings are present and in order.
+- The selected template's required sections are present, in order, and their headings match the target output language.
 - Facts, estimates, and judgment are separated.
 - Sources are listed with dates where possible.
 - Any unavailable data is clearly labeled and reflected in confidence.
