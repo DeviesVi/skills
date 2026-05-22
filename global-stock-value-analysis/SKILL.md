@@ -57,7 +57,7 @@ If the market is ambiguous, infer from ticker format and company name. Ask one c
 5. Analyze business quality: moat, industry structure, unit economics, management/capital allocation, cyclicality, and regulation.
 6. Analyze financials: revenue growth, margins, ROE/ROIC, cash conversion, free cash flow, leverage, liquidity, dilution, dividends/buybacks.
 7. Apply the value-investor gate: circle of competence, business model quality, management/culture, moat durability, owner earnings, and margin of safety.
-8. Analyze valuation: historical multiples, peer multiples, DCF/DDM where appropriate, owner earnings or FCF yield, and margin of safety.
+8. Analyze valuation: historical multiples, 5/10/20-year P/E percentile when P/E is meaningful, peer multiples, DCF/DDM where appropriate, owner earnings or FCF yield, and margin of safety.
 9. Analyze news and events: classify each item as thesis-changing, catalyst, risk signal, sentiment/noise, or data point needing confirmation.
 10. Check risks and red flags: accounting quality, debt maturity, customer concentration, governance, related-party transactions, regulatory exposure, cyclicality, and recent adverse news.
 11. Produce a clear conclusion with thesis, key numbers, valuation range, watch items, and confidence level.
@@ -106,6 +106,8 @@ Read only what is needed:
 - Always separate durable thesis items from short-term news flow.
 - Avoid overprecision in valuation. Use ranges and key assumptions.
 - For DCF/DDM, state discount rate, terminal growth, normalized FCF/dividend, and sensitivity.
+- For P/E percentile, choose the most reasonable 5/10/20-year history for the specific company and explain why that horizon fits its listing age, business maturity, cycle length, accounting comparability, and data reliability.
+- If P/E is distorted by one-off or non-operating items such as tax provisions, impairment, litigation, restructuring charges/gains, subsidies, or asset disposals, normalize earnings first, use adjusted P/E percentile when defensible, and explicitly warn the user about the adjustment and residual uncertainty.
 - For cross-market comparisons, normalize currency, accounting standards, fiscal periods, and one-off items.
 - If data is unavailable or stale, say so and continue with a clearly marked limited analysis.
 

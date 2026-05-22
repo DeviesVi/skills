@@ -25,6 +25,7 @@ Financial quality:
 Valuation:
 - P/E, forward P/E, P/B, P/S, EV/EBITDA, EV/EBIT, FCF yield
 - historical range versus current multiple
+- current P/E percentile versus the selected 5/10/20-year history, with the selected horizon and reason stated
 - peer comparison using similar business models and growth profiles
 - DCF for cash-generative businesses
 - DDM for stable dividend businesses
@@ -69,6 +70,7 @@ Common methods:
 - DCF: best for companies with visible cash generation.
 - Owner earnings: useful for mature companies with recurring maintenance capex.
 - Relative valuation: useful as a cross-check, not the sole conclusion.
+- P/E percentile: useful for judging where today's market multiple sits versus the company's own history, but only after checking whether earnings are positive, representative, and comparable.
 - Sum-of-the-parts: useful for conglomerates, platforms with separable segments, or holding companies.
 - Book value or tangible book value: useful for banks, insurers, and asset-heavy financials.
 
@@ -79,6 +81,23 @@ Always state the valuation anchor:
 - dividends
 - asset value
 - strategic optionality
+
+## P/E Percentile Discipline
+
+When P/E is economically meaningful, include 5-year, 10-year, or 20-year P/E percentile data in the valuation section. Select one primary horizon and explain the reason. Add other horizons only when they materially change the interpretation.
+
+Horizon selection:
+- Use 5 years for newly listed companies, businesses whose model or accounting base changed materially, firms after major restructuring/M&A, or sectors where older history is not comparable.
+- Use 10 years as the default for established companies with at least one normal business cycle and reasonably comparable earnings data.
+- Use 20 years for mature, long-listed businesses where multiple cycles are relevant and the business mix/accounting regime remains comparable enough.
+
+Interpretation rules:
+- Low percentile means statistically cheap versus the company's own history, not automatically undervalued.
+- High percentile means statistically expensive versus history, not automatically a sell if growth, margins, or capital returns structurally improved.
+- Exclude material one-off or non-operating distortions before calculating or interpreting the percentile. Typical examples include tax provisions or tax benefits, impairments, litigation costs, restructuring charges/gains, government subsidies, asset disposal gains/losses, and accounting-policy changes.
+- When using an adjusted or normalized P/E percentile, tell the user what was adjusted and whether the adjustment is sourced, estimated, or approximate.
+- For cyclical, loss-making, financial, commodity, or one-off-heavy companies, downweight P/E percentile and prefer normalized earnings, book value, EV/EBITDA, or asset-based methods as appropriate.
+- If percentile data is unavailable, stale, or computed from inconsistent sources, label it unavailable and avoid substituting an unsupported guess.
 
 ## Thesis Update Rules
 

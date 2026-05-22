@@ -21,7 +21,7 @@ Required headings:
 4. Key Metrics
 5. Recent News That Matters
 6. Buffett/Munger/Duan Gates
-7. Valuation View
+7. Valuation View With P/E Percentile
 8. Main Risks
 9. Watch Items
 10. Sources
@@ -70,7 +70,7 @@ Required headings:
 2. Data Freshness
 3. Current Market Implied Expectations
 4. Normalized Earnings Or Owner Earnings
-5. Multiple-Based Valuation
+5. Multiple-Based Valuation And P/E Percentile
 6. DCF Or FCF Yield Check
 7. Margin Of Safety
 8. Sensitivity
