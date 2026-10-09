@@ -1,5 +1,7 @@
 # Value Investing Framework
 
+Use the parts relevant to the question and business. This is a set of analytical checks, not a requirement to calculate every metric or include every item in the answer. Use scoring only for ranking or screening where it helps the user.
+
 ## Research Checklist
 
 Business quality:

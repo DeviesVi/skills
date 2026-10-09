@@ -37,7 +37,7 @@ When the user asks for "today", "latest", "刚刚", "现在", or an event reacti
 
 ## News Triage Workflow
 
-1. List the 3-7 most relevant recent items with source, publication date, and retrieval date when the item is time-sensitive.
+1. Select the items that materially affect the question, with source, event date, publication/update date, and retrieval time when time-sensitive. A broad news review may need 3-7 items; a focused event question may need only one. Do not pad the list to meet a count.
 2. For each item, state the confirmed fact in one sentence.
 3. Estimate what part of the valuation model it could affect: revenue, margin, capex, discount rate, terminal growth, debt, dilution, or multiple.
 4. Mark impact as positive, negative, mixed, or unclear.
@@ -74,4 +74,3 @@ Use this compact table when news is important:
 |  |  | Primary / reputable / unconfirmed | Positive / negative / mixed / unclear | Changes thesis / catalyst / risk / noise |
 
 End with one paragraph: what news matters most, what is probably noise, and what to monitor next.
-

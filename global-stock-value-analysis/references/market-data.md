@@ -4,7 +4,7 @@ Use this reference to keep financial analysis timely. The goal is not to use the
 
 ## Recency Gate
 
-Before making a current investment view, capture:
+For a current investment view, capture the relevant items below. A narrow question needs only the inputs and freshness checks that support its answer; historical as-of research uses evidence available by the requested cutoff.
 - retrieval date and time, plus timezone when available
 - market status: open, closed, pre-market, after-hours, suspended, or holiday
 - latest price, currency, market cap, enterprise value if used, and data vendor
@@ -101,13 +101,14 @@ When sources disagree:
 
 ## P/E Percentile Data
 
-For each stock analysis where P/E is meaningful:
-- Try to gather 5-year, 10-year, and 20-year P/E percentile data or enough historical P/E data to compute them.
+For valuation work or substantive stock reports where P/E is meaningful:
+- Choose a defensible 5-, 10-, or 20-year history, then gather its percentile or enough comparable data to calculate it. Add other horizons only when they materially change the interpretation or the user requests them.
 - Select the primary horizon case by case and explain the reason in the final answer.
 - Prefer 5 years when the company is newly listed, transformed, or has limited comparable public history.
 - Prefer 10 years as the default for seasoned companies with comparable earnings across a full cycle.
 - Prefer 20 years for mature, long-listed companies where older cycles remain relevant.
 - State whether the percentile uses trailing, forward, GAAP, adjusted, or normalized P/E.
+- For a calculated percentile, report the observation window, sampling frequency, earnings basis, sample size, and treatment of non-positive earnings and missing values. One transparent convention is 100 * (observations below the current P/E + 0.5 * ties) / valid observations. Do not mix the current adjusted P/E with an unadjusted historical series; use a consistently defined series or mark the comparison unreliable.
 - Check whether the latest or historical EPS includes material non-recurring distortions such as tax provisions or benefits, impairments, litigation, restructuring, subsidies, asset disposals, or accounting changes. If so, compute or request an adjusted/normalized P/E percentile when possible.
 - Warn the user when the reported P/E percentile is distorted by those items, and state whether the valuation view relies on adjusted earnings or treats P/E percentile as low-confidence evidence.
 - If earnings are negative, near zero, distorted by one-offs, or structurally cyclical, say P/E percentile is low-quality evidence and use a better anchor.
@@ -123,3 +124,7 @@ For each stock analysis where P/E is meaningful:
 - Treat unsourced social-media rumors and promotional commentary as noise unless confirmed by primary or highly reputable sources.
 - When news is fast-moving, include exact publication dates and distinguish confirmed facts from market speculation.
 - If data is unavailable, stale, delayed, or blocked, continue only with a clearly marked limited analysis and reduce confidence.
+
+## Retrieval Stopping Point
+
+Once the requested conclusion is supported by dated evidence and material discrepancies are resolved or disclosed, finish the report. A missing nonessential percentile or peer metric does not justify repeated searches across similar vendors. Try a credible alternative when useful, then identify the gap and its effect on the analysis.
