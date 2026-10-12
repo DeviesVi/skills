@@ -7,7 +7,7 @@ This repository collects the Codex skills I use across machines. It is designed 
 | Skill | What it does |
 | --- | --- |
 | `arxiv2md` | Converts arXiv papers into clean Markdown through the online arxiv2md REST API, then runs a local cleanup pass for common conversion artifacts. |
-| `global-stock-value-analysis` | Guides value-investing oriented stock research across US stocks, China A-shares, HK stocks, ADRs, and mixed portfolios. |
+| `global-stock-value-analysis` | Investigates company operations through public sources and connects the evidence to equity valuation across US, China A-share, HK, and global markets. |
 
 ## Repository Layout
 
@@ -69,7 +69,7 @@ Restart Codex or reload skills after copying.
 ## Notes
 
 - `arxiv2md` is intentionally trimmed to the skill instructions, cleanup script, and license. It uses the public arxiv2md.org API rather than vendoring the upstream service project.
-- `global-stock-value-analysis` is intentionally lightweight: the main workflow lives in `SKILL.md`, and detailed investing checklists live in `references/`.
+- `global-stock-value-analysis` routes from `SKILL.md` to focused references. Its operating research workflow investigates products, customers, suppliers, competitors, industry data, and project/regulatory records alongside financial reports. It includes asset/depreciation checks for capital-intensive businesses and requires evidence when judging whether a profit or cash-flow scenario is achievable.
 - These skills are research and workflow helpers. The stock analysis skill is not personalized financial advice.
 
 ## License

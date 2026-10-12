@@ -2,6 +2,8 @@
 
 Use this reference to keep financial analysis timely. The goal is not to use the most sources; it is to use the freshest reliable primary data for facts that can change quickly, and to label the timestamp of every market-sensitive number.
 
+For substantive company research, combine this recency guidance with [operating research](operating-research.md). Market data and financial filings do not replace investigation of the business. That reference covers public product, customer, supplier, competitor, industry, regulatory, and project sources, with evidence limits for each.
+
 ## Recency Gate
 
 For a current investment view, capture the relevant items below. A narrow question needs only the inputs and freshness checks that support its answer; historical as-of research uses evidence available by the requested cutoff.
@@ -13,6 +15,7 @@ For a current investment view, capture the relevant items below. A narrow questi
 - latest company announcements since the last financial report
 - latest earnings call, guidance update, dividend/buyback announcement, financing, M&A, litigation, or regulatory notice
 - recent news window used: normally 30-90 days, shorter for fast-moving events and longer for structural/regulatory issues
+- current operating evidence for the material forecast drivers, plus older project, contract, or guidance history needed to explain execution; do not restrict structural operating research to the news window
 
 If the user asks "now", "today", "latest", "recent", "还能买吗", "现在怎么看", or anything price-sensitive, verify current market data and recent announcements first. Do not rely on memorized prices, stale ratios, or old screenshots.
 
@@ -27,6 +30,7 @@ If the user asks "now", "today", "latest", "recent", "还能买吗", "现在怎�
 | Annual financials | Latest filed annual report | If a newer quarter exists, annual data alone is stale for current view. |
 | Quarterly/interim financials | Latest filed period | State period end and filing date. |
 | Guidance/earnings call | Latest company release or transcript | Check for updates after the financial statement date. |
+| Operating/project data | Latest available observation with relevant history | Separate event date, publication date, covered period, and planned versus actual status; an unchanged old claim is not a fresh measurement. |
 | Company announcements | Since latest report, plus last 30-90 days | Primary filings beat media summaries. |
 | News/catalysts | Last 30-90 days by default | Extend for lawsuits, regulation, product cycles, credit stress, and policy changes. |
 | Macro rates, FX, commodities | Same day when material | Use only through company-specific exposure. |
@@ -42,6 +46,7 @@ Use primary sources for facts, market data vendors for live prices, and reputabl
 | P/E percentile | Market-data platforms with historical valuation bands, exchange/finance portals, Macrotrends/Koyfin/TradingView-style pages, or akshare-style datasets for A-shares | Recalculate from historical price and earnings data when practical; otherwise label vendor methodology limits. |
 | Financial statements | Company reports, SEC XBRL, exchange filings, annual/interim reports | Finance portals and databases only after checking period/date |
 | Earnings call and guidance | Company IR transcript/audio/presentation | Reputable transcript services or financial media |
+| Business operations and execution | Original company/product records, customer/supplier/competitor disclosures, official project and regulatory records | Use the question-specific source options and corroboration checks in operating research; separate commercial claims from observed outcomes |
 | News and catalysts | Company/regulator/court filings first, then Reuters/Bloomberg/WSJ/FT/CNBC/official local media | Multiple outlets for unconfirmed or anonymous-source reports |
 | Macro variables | Central banks, official statistics agencies, treasury/FX/commodity exchange sources | Reputable financial data vendors |
 
@@ -127,4 +132,4 @@ For valuation work or substantive stock reports where P/E is meaningful:
 
 ## Retrieval Stopping Point
 
-Once the requested conclusion is supported by dated evidence and material discrepancies are resolved or disclosed, finish the report. A missing nonessential percentile or peer metric does not justify repeated searches across similar vendors. Try a credible alternative when useful, then identify the gap and its effect on the analysis.
+Once the requested conclusion is supported by dated evidence and material discrepancies are resolved or disclosed, finish the report. For substantive company research, also apply the operating research coverage check; obtaining a current price and filing is not sufficient. A missing nonessential percentile or peer metric does not justify repeated searches across similar vendors. For a material operating gap, investigate relevant alternative source families before declaring it unavailable, then identify the gap and its effect on the analysis.

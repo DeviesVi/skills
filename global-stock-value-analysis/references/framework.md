@@ -4,6 +4,8 @@ Use the parts relevant to the question and business. This is a set of analytical
 
 ## Research Checklist
 
+Ground the business and financial checks in [operating research](operating-research.md). For material drivers, investigate products, customers, delivery capacity, competition, and reinvestment through relevant public sources. Ratios describe outcomes; explain the operating causes and test whether they can persist.
+
 Business quality:
 - understandable business model and revenue drivers
 - circle of competence: whether the analyst can understand the business, accounting, and industry well enough to estimate value
@@ -67,6 +69,10 @@ Apply a hard cap when needed:
 ## Valuation Discipline
 
 Use normalized fundamentals when current earnings are cyclical, temporarily depressed, or temporarily inflated.
+
+Derive material forecast inputs from the researched operating model. Show the bridge from demand, volume, pricing, mix, utilization or customer retention to margins, reinvestment, and cash attributable to shareholders. Label guidance, third-party forecasts, analyst calculations, and unsupported inputs separately. Link to the evidence rather than choosing round-number profit or cash-flow scenarios as if they were forecasts.
+
+When using a reverse valuation or sensitivity table, investigate whether its requirements can be achieved. Numerical plausibility is not a supported base case. Separate a temporary capital-spending trough or depreciation benefit from cash that can persist through replacement cycles. Use the [cash-flow and feasibility checks](operating-research.md#connect-operations-to-earnings-and-shareholder-cash) when ownership, asset renewal, or financing materially affects value.
 
 Common methods:
 - DCF: best for companies with visible cash generation.

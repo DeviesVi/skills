@@ -9,8 +9,9 @@ Rules:
 - Keep facts, estimates, and judgment separated.
 - Cite material claims near the evidence and include dates for market data, financial periods, filings, and major news. A separate source list can supplement inline citations.
 - Use concise prose under each heading unless the user asks for a full report.
+- For substantive company research, show the operating findings that drive the conclusion and the main counterevidence. A compact output still needs the underlying investigation. State material source-access or disclosure gaps; do not present management assertions as independently verified operations.
 
-## Quick Stock Note
+## Stock Note
 
 Use for a broad single-stock request. Combine adjacent sections when this makes the note easier to read. For a one-metric question or an explicit short answer, answer directly instead.
 
@@ -18,8 +19,8 @@ Default coverage, in order:
 
 1. Conclusion
 2. Data Freshness
-3. Company And Business
-4. Key Metrics
+3. Business Model And Material Operating Findings
+4. Financial Results And Their Operating Drivers
 5. Recent News That Matters
 6. Buffett/Munger/Duan Gates
 7. Valuation View With P/E Percentile
@@ -28,6 +29,24 @@ Default coverage, in order:
 10. Sources
 
 Each topic can be brief. Integrate the philosophy gates into the business, valuation, and risk discussion when a separate block would repeat the same conclusions.
+
+The operating findings should explain why the business is performing as it is, with evidence on the drivers relevant to the thesis. A list of products or a paraphrase of revenue growth does not meet that purpose. Combine sections as needed to keep the note readable.
+
+## Operating Research Memo
+
+Use for operating due diligence or a deep question about products, customers, production, supply chains, competition, or execution. Keep valuation optional when it was not requested and does not help answer the question.
+
+Coverage:
+
+1. Judgment On The Requested Operating Question
+2. Business Mechanism And Scope Of Research
+3. Material Findings And Their Source Evidence
+4. Customer, Supplier, Competitor Or Project Cross-Checks As Relevant
+5. Execution History, Counterevidence And Conflicting Claims
+6. Implications For Costs, Growth, Reinvestment And Cash Generation
+7. Unverified Inputs And What Would Change The Judgment
+
+For complex questions, use a compact table connecting each driver to the observed result, evidence status, financial implication, and unresolved issue. Keep a detailed evidence record in working notes if needed; do not require a separate file.
 
 ## Full Investment Memo
 
@@ -38,15 +57,18 @@ Required headings:
 1. Executive Summary
 2. Data Freshness And Source Log
 3. Company Overview And Business Model
-4. Industry And Competitive Position
-5. Financial Analysis
-6. Investment Philosophy Gates
-7. Valuation
-8. Peer Comparison
-9. News, Catalysts, And Market Narrative
-10. Risks And Red Flags
-11. Watch Items
-12. Conclusion With Fair Value Range And Margin Of Safety
+4. Operating Model, Execution And Public-Evidence Findings
+5. Industry And Competitive Position
+6. Financial Analysis And Operating-To-Cash Bridge
+7. Investment Philosophy Gates
+8. Valuation And Evidence For Forecast Assumptions
+9. Peer Comparison
+10. News, Catalysts, And Market Narrative
+11. Counterevidence, Risks And Unresolved Inputs
+12. Watch Items
+13. Conclusion With Supported Valuation Range Or Explicit Limits
+
+Include research coverage and material inaccessible sources in the source log. Explain margin of safety only relative to a supported case; a scenario table does not by itself establish fair value.
 
 ## News-Aware Value Memo
 
@@ -72,13 +94,14 @@ Default coverage, in order:
 1. Valuation Conclusion
 2. Data Freshness
 3. Current Market Implied Expectations
-4. Normalized Earnings Or Owner Earnings
-5. Multiple-Based Valuation And P/E Percentile
-6. DCF Or FCF Yield Check
-7. Margin Of Safety
-8. Sensitivity
-9. What Would Change The View
-10. Sources
+4. Operating Evidence And Feasibility Of Forecast Assumptions
+5. Normalized Earnings Or Owner Earnings With A Reconciled Bridge
+6. Multiple-Based Valuation And P/E Percentile
+7. DCF Or FCF Yield Check
+8. Margin Of Safety
+9. Sensitivity And Single-Year Versus Sustainable Outcomes
+10. What Would Change The View
+11. Sources And Critical Data Gaps
 
 ## Risk Review
 
@@ -104,6 +127,8 @@ Use for stock comparisons. Lead with the conclusion, identify the securities and
 | Area | Stock A | Stock B | Advantage |
 | --- | --- | --- | --- |
 | Growth |  |  |  |
+| Customer demand and competitive evidence |  |  |  |
+| Capacity, execution and reinvestment needs |  |  |  |
 | Margins |  |  |  |
 | ROIC/ROE |  |  |  |
 | Balance sheet |  |  |  |
@@ -125,3 +150,5 @@ State the market/universe, as-of date, filters, and material data-coverage limit
 |  |  |  |  |  |
 
 Explain the ranking or scoring method when used, and identify which candidates need deeper diligence. Do not imply that omitted securities failed filters when their data was unavailable.
+
+State whether each shortlisted candidate received operating due diligence or only a quantitative screen. Do not present a financial screen as completed company research.
